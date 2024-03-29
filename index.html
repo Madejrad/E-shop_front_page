@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/query.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5bcf89f2f4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>ChilliCZ</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/icon type" />
+  </head>
+
+  <body class="light-mode">
+    <div class="arrow-up">
+      <a href="#top"><i class="fa-solid fa-circle-arrow-up"></i></a>
+    </div>
+
+    <header>
+      <nav class="navigation">
+        <i class="fa-solid fa-circle-half-stroke" id="top"></i>
+
+        <i class="menu-icon fa-solid fa-bars"></i>
+        <!-- <i class=" menu-icon fa-solid fa-xmark"></i> -->
+
+        <div class="menu">
+          <ul>
+            <li><a href="#sec1">O nás</a></li>
+            <li><a href="#sec2">Chilli</a></li>
+            <li><a href="#sec3">Obchod</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <!-- Odkaz Kontakt jsem nesměroval naschvál -->
+          </ul>
+        </div>
+      </nav>
+
+      <div class="logo-wrapper">
+        <img src="./img/logo2.png" alt="Logo Chilli CZ" />
+      </div>
+    </header>
+
+    <main>
+      <div class="text-content">
+        <h1 class="main-text centered">
+          Nejlepší a nejchutnější <strong>chilli</strong> papričky v ČR!
+        </h1>
+        <h2 class="support-text centered" id="sec1">
+          Ať už chcete chilli papričky pěstovat, vařit z nich nebo si užívat
+          hotové chilli produkty, tady jste na tom správném místě! Prozkoumejte
+          svět ChilliCZ...
+        </h2>
+        <button class="centered">
+          <a href="#sec2" class="butt-taste">Ochutnej<br />chilli !</a>
+        </button>
+        <p class="centered">
+          Jsme výhradním dovozcem množství speciálních druhů chilli papriček,
+          které jinde neseženete. Naše nabídka obsahuje středně pálivé, pálivé a
+          extrémně pálivé druhy papriček, které jistě každý milovník pikantní
+          chuti rád vyzkouší. Pokud si chcete vypěstovat své vlastní chilli,
+          můžeme Vám nabídnou širokou škálu kvalitních semen nejrůznějších
+          odrůd, především však odrůd z jižní Ameriky. V neposlední řadě je pak
+          možné v naší nabídce nalézt mnoho chilli produktů - nakládanými
+          papričkami počínaje a salsami konče. U nás si zkrátka vybere každý!
+        </p>
+      </div>
+
+      <section class="pic-section" id="sec2">
+        <div class="pic-container centered">
+          <div class="pic-wrapper">
+            <img src="./img/seeds.png" alt="Chilli seeds" title="Semena" />
+            <h3 class="pic-title">Semena</h3>
+          </div>
+          <div class="pic-wrapper">
+            <img
+              src="./img/orange.png"
+              alt="Mild chilli on plant"
+              title="Papričky"
+            />
+            <h3 class="pic-title">Papričky</h3>
+          </div>
+          <div class="pic-wrapper">
+            <img
+              src="./img/paste.png"
+              alt="Chilli paste in white cup"
+              title="Produkty z papriček"
+            />
+            <h3 class="pic-title">Produkty z papriček</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section" id="sec3">
+        <h2 class="registration">Registrace do obchodu</h2>
+        <h3 class="warning-email">Vložte prosím správný E-mail</h3>
+        <h3 class="warning">Hesla nejsou stejná</h3>
+        <form class="centered">
+          <div class="form-columns">
+            <div class="form-text">
+              <p>E-mail</p>
+              <p>Heslo</p>
+              <p>Ověření hesla</p>
+            </div>
+            <div class="form-input">
+              <div>
+                <input type="text" class="input-email" placeholder="E-mail" />
+              </div>
+              <div>
+                <input
+                  type="password"
+                  class="input-psw1"
+                  placeholder="Heslo"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="password"
+                  class="input-psw2"
+                  placeholder="Heslo znovu"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="password-butt">
+            <input type="button" value="Odeslat" class="psw-butt" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper centered">
+        <div class="footer-social">
+          <div>
+            <i class="fa-brands fa-square-facebook"></i>
+            <a href="#">ChilliCZ</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-square-instagram"></i>
+            <a href="#">@ChilliCZ</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-square-youtube"></i>
+            <a href="#">@ChilliCZchannel</a>
+          </div>
+        </div>
+        <div class="footer-contacts">
+          <div>
+            <i class="fa-solid fa-square-phone"></i>
+            <a href="#">+420 123456789</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-square-envelope"></i>
+            <a href="#">info@chillicz.cz</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <a href="#">+420 123456789</a>
+          </div>
+        </div>
+      </div>
+      <p>&#169; ChilliCZ 2024</p>
+    </footer>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+:root {
+  --grey-shadow: #2d2b2b;
+  --yellow-chilli: #ca2;
+  --red-chilli: #ed1b24;
+  --white: #fff;
+  --background-greenish: #e9f7ee;
+  --shadow-light: #ffffff99;
+  --shadow-dark: #00000099;
+  --gradient-dark1: #00000033;
+  --gradient-dark2: #00000000;
+  --strong-color: #ea640c;
+}
+
+/* Responsivity for bigger screens */
+
+@media (min-width: 768px) {
+  .centered {
+    width: 70%;
+  }
+
+  .fa-circle-half-stroke {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin-top: 20px;
+  }
+
+  .menu {
+    text-align: center;
+    display: block !important;
+    position: static;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: var(--red-chilli);
+  }
+
+  .menu ul li {
+    margin: 0 20px;
+  }
+
+  .fa-bars,
+  .fa-xmark {
+    display: none !important;
+  }
+
+  .main-text {
+    padding: calc((30vh - 50px) / 2) 0;
+  }
+
+  .pic-container {
+    width: 90%;
+  }
+
+  .pic-wrapper {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+
+/* Alignment of pictures for desktop */
+
+@media (min-width: 1100px) {
+  .pic-wrapper {
+    max-width: 320px;
+    max-height: 320px;
+  }
+
+  .pic-container {
+    gap: 30px;
+    padding: 70px 0;
+    width: 70%;
+  }
+}
